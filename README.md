@@ -27,8 +27,8 @@ In LINUX OS, you should create a ```.sh``` file, in which the content can be:
 ```
 #!/usr/bin sh
 set -e
-TOOLS=/*your_caffe_folder*/build/tools
-LOG=./*your_log_folder*/mynet.log
+TOOLS=/*your_caffe_dir*/build/tools
+LOG=./*your_log_dir*/mynet.log
 $TOOLS/caffe train --solver=./mynet_solver.prototxt -gpu 0 2>&1 |tee -a $LOG
 ```
 
