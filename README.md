@@ -18,4 +18,16 @@ Hope that will be helpful for you!
   
 * Datasets (for demo)
 
-  For privacy, we put some data of six-category in project and you should turn the images to ```.lmdb```. You also can download the [four-category](https://www.nist.gov/srd/nist-special-database-4) on NIST for more investigation.
+  For privacy, we put some data of six-category in project and you should turn the images to ```.lmdb```. You can also download the [four-category](https://www.nist.gov/srd/nist-special-database-4) on NIST for more investigation.
+
+### How to run it
+
+In LINUX OS, you should create a ```.sh``` files, in which the contene can be:
+
+```#!/usr/bin/env sh
+set -e
+TOOLS=/*your_caffe_folder*/build/tools
+LOG=./*your_log_folder*/mynet.log
+$TOOLS/caffe train --solver=./mynet_solver.prototxt -gpu 0 2>&1 |tee -a $LOG
+```
+
