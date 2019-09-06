@@ -6,10 +6,12 @@ In this paper, we use a six-category fingerprint database instead four-category,
 
 ![Loading failed](https://github.com/VictorZoo/FCTP-Net/blob/master/demo_image/1567746772(1).jpg)
 
-We upload four netfiles (**Alexnet**, **Lenet**, **Caffenet** and our **FCTP-Net**). 
+We uploaded netfiles (**Alexnet**, **Lenet**, **Caffenet** and our **FCTP-Net**). 
 
 Hope that will be helpful for you!
 
 ### Installation
+
+#### 1 Caffe
 
 We used **Caffe** framwork, you can clik [here](https://github.com/BVLC/caffe) to get the instruction to build it.
