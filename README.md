@@ -18,7 +18,7 @@ Hope that will be helpful for you!
   
 * Datasets (for demo)
 
-  For privacy, we put some data of six-category in project and you should turn the images to ```.lmdb``` (click [here](https://blog.csdn.net/u010417185/article/details/52119863) for more infos). You also can download the [four-category](https://www.nist.gov/srd/nist-special-database-4) on NIST for more investigation.
+  For privacy, we put some data of six-category in project partially and you should turn the images to ```.lmdb``` (click [here](https://blog.csdn.net/u010417185/article/details/52119863) for more infos). You also can download the [four-category](https://www.nist.gov/srd/nist-special-database-4) on NIST for more investigation.
 
 ### How to run a demo
 
