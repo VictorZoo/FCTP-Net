@@ -10,10 +10,10 @@ layer {
   transform_param {
     mirror: true
     crop_size: 227
-    mean_file: "/home/mpiuser/zjl/net/build_lmdb/mynet_mean.binaryproto"
+    mean_file: "./mynet_mean.binaryproto"
   }
   data_param {
-    source: "/home/mpiuser/zjl/net/build_lmdb/train_lmdb"
+    source: "./build_lmdb/train_lmdb"
     batch_size: 20
     backend: LMDB
   }
@@ -29,10 +29,10 @@ layer {
   transform_param {
     mirror: false
     crop_size: 227
-    mean_file: "/home/mpiuser/zjl/net/build_lmdb/mynet_mean.binaryproto"
+    mean_file: "./mynet_mean.binaryproto"
   }
   data_param {
-    source: "/home/mpiuser/zjl/net/build_lmdb/val_lmdb"
+    source: "./val_lmdb"
     batch_size: 10
     backend: LMDB
   }
