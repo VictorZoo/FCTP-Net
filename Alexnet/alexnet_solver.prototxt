@@ -1,0 +1,14 @@
+net: "/home/mpiuser/zjl/net/alexnet_train_val.prototxt"
+test_iter: 1100
+test_interval: 1000
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+stepsize: 10000
+display: 100
+max_iter: 100000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "/home/mpiuser/zjl/net/prefix/alexnet"
+solver_mode: GPU
