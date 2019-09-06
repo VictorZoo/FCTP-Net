@@ -1,4 +1,4 @@
-net: "/home/mpiuser/zjl/net/mynet_train_val.prototxt"
+net: "./mynet_train_val.prototxt"
 test_iter: 1100
 test_interval: 500
 base_lr: 0.001
@@ -11,5 +11,5 @@ max_iter: 150000
 momentum: 0.9
 weight_decay: 0.0005
 snapshot: 10000
-snapshot_prefix: "/home/mpiuser/zjl/net/prefix/mynet_train13"
+snapshot_prefix: "./mynet_train"
 solver_mode: GPU
