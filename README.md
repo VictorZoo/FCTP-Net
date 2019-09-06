@@ -37,8 +37,8 @@ Moreover, you should adjust some file directions according to your direction of 
 ### Results
 
 |Model|Accuracy|
-|--|--|
+|:-:|:-:|
 | Alexnet | 47.03% |
 | Caffenet | 82.63% |
 | Lenet | 16.64% |
-| Caffenet | 93.14% |
+| FCTP-Net | 93.14% |
