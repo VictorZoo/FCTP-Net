@@ -22,7 +22,7 @@ Hope that will be helpful for you!
 
 ### How to run a demo
 
-In LINUX OS, you should create a ```.sh``` files, in which the content can be:
+In LINUX OS, you should create a ```.sh``` file, in which the content can be:
 
 ```
 #!/usr/bin sh
