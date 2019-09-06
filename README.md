@@ -14,4 +14,7 @@ Hope that will be helpful for you!
 
 1. Caffe
 
-We used **Caffe** framwork, you can clik [here](https://github.com/BVLC/caffe) to get the instruction to build it.
+  We used **Caffe** framwork, you can clik [here](https://github.com/BVLC/caffe) to get the instruction to build it.
+  
+2. Datasets(for demo)
+  For privacy, we put some data of six-category in project and you should turn the images to ```.lmdb```. You also can download the [four-category](https://www.nist.gov/srd/nist-special-database-4) on NIST for more investigation.
