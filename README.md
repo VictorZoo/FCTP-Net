@@ -25,7 +25,7 @@ Hope that will be helpful for you!
 In LINUX OS, you should create a ```.sh``` files, in which the content can be:
 
 ```
-#!/usr/bin/env sh
+#!/usr/bin sh
 set -e
 TOOLS=/*your_caffe_folder*/build/tools
 LOG=./*your_log_folder*/mynet.log
@@ -34,3 +34,11 @@ $TOOLS/caffe train --solver=./mynet_solver.prototxt -gpu 0 2>&1 |tee -a $LOG
 
 Moreover, you should adjust some file directions according to your direction of data or something else.
 
+### Results
+
+|Model|Accuracy|
+|--|--|
+| Alexnet | 47.03% |
+| Caffenet | 82.63% |
+| Lenet | 16.64% |
+| Caffenet | 93.14% |
