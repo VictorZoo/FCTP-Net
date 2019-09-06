@@ -14,7 +14,7 @@ Hope that will be helpful for you!
 
 * Caffe
 
-  We used **Caffe** framwork, you can click [here](https://github.com/BVLC/caffe) to get the instruction to build it.
+  We used **Caffe** framework, you can click [here](https://github.com/BVLC/caffe) to get the instruction to build it.
   
 * Datasets (for demo)
 
