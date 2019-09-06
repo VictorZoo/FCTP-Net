@@ -12,6 +12,6 @@ Hope that will be helpful for you!
 
 ### Installation
 
-#### 1 Caffe
+1. Caffe
 
 We used **Caffe** framwork, you can clik [here](https://github.com/BVLC/caffe) to get the instruction to build it.
